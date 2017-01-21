@@ -31,7 +31,7 @@ module.exports = function(app) {
    * @api public
    */
 
-  app.task('default', ['files', 'plugin', 'install']);
+  app.task('default', ['files', 'plugin-only', 'install']);
 
   /**
    * Generate only the `index.js` file for a snapdragon plugin.
