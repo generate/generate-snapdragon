@@ -1,0 +1,94 @@
+{
+  "name": "generate-snapdragon",
+  "description": "Scaffold out a new snapdragon plugin project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/generate/generate-snapdragon",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "generate/generate-snapdragon",
+  "bugs": {
+    "url": "https://github.com/generate/generate-snapdragon/issues"
+  },
+  "license": "Released under the MIT license.",
+  "files": [
+    "generator.js",
+    "index.js",
+    "templates"
+  ],
+  "preferGlobal": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "generate-project": "^0.6.0",
+    "is-valid-app": "^0.2.1"
+  },
+  "devDependencies": {
+    "delete": "^0.3.2",
+    "generate": "^0.13.1",
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0",
+    "npm-install-global": "^0.1.2"
+  },
+  "keywords": [
+    "boilerplate",
+    "build",
+    "cli",
+    "cli-app",
+    "command-line",
+    "create",
+    "dev",
+    "development",
+    "framework",
+    "front",
+    "frontend",
+    "generate",
+    "generate-generator",
+    "generate-plugin",
+    "generategenerator",
+    "generateplugin",
+    "generator",
+    "init",
+    "initialize",
+    "new",
+    "plugin",
+    "project",
+    "projects",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "snapdragon",
+    "template",
+    "templates",
+    "webapp",
+    "yeoman",
+    "yo"
+  ],
+  "verb": {
+    "toc": "collapsible",
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "assemble",
+      "base",
+      "gulp",
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
+}
