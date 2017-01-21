@@ -31,7 +31,7 @@ $ gen snapdragon
 
 All tasks beside the default task are run by appending the task name to `snapdragon:`.
 
-### [snapdragon](generator.js#L34)
+### [default task](generator.js#L34)
 
 Run the generator's default task to scaffold out a new snapdragon plugin project.
 

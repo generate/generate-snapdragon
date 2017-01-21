@@ -27,7 +27,7 @@ module.exports = function(app) {
    * ```sh
    * $ gen snapdragon
    * ```
-   * @name snapdragon
+   * @name default task
    * @api public
    */
 
